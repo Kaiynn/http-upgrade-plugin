@@ -4,16 +4,30 @@
   "description": "http协议请求升级https协议请求",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "build": "webpack",
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaiynn/http-upgrade-plugin.git"
   },
   "author": {
     "name": "Kaiynn",
     "email": "79544105@qq.com"
   },
   "license": "MIT",
-  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/Kaiynn/http-upgrade-plugin/issues"
+  },
+  "homepage": "https://github.com/Kaiynn/http-upgrade-plugin",
   "devDependencies": {
     "@types/jest": "^29.5.2",
     "clean-webpack-plugin": "^4.0.0",
